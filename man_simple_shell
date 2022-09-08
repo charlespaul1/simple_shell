@@ -3,7 +3,7 @@
  concepts they have acquired learning in the first sprint of learnig c programming
         "simple_shell man page"
 SH NAME
-Holberton Simple Shell
+Holberton Simple Shell.
 - A simple UNIX command line interpreter.
 .SH SYNOPSIS
 .B ./hsh [options] [command_string | file]
