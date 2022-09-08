@@ -3,7 +3,7 @@
 /**
  * execution - executes commands entered
  *@cp: command
- *@cmd: array of pointer to commands
+ *@cmd: array of pointer to commands.
  * Return: 0
  */
 
