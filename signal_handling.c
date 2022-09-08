@@ -2,7 +2,7 @@
 
 /**
  *handle_signal- handles signal like ctrl + c
- *@m: the signal number
+ *@m: the signal number.
  *Return: nothing
  */
 
