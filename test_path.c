@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
-* test_path - checks whether path is valid
+* test_path - checks whether the path is valid
 * @path: tokenized path
 * @command: user entered command
 *

@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- *handle_signal- it keeps track is interactive mode
+ *handle_signal- handles signal like ctrl + c
  *@m: the signal number
  *Return: nothing
  */

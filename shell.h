@@ -12,11 +12,11 @@
 #include <time.h>
 #include <stdbool.h>
 
-/* environment variables */
+/* environment variable handlers */
 extern char **environ;
 extern __sighandler_t signal(int __sig, __sighandler_t __handler);
 
-/* handle built ins */
+/* handle built ints */
 int checker(char **cmd, char *buf);
 void prompt_user(void);
 void handle_signal(int m);
@@ -28,7 +28,7 @@ void exit_cmd(char **command, char *line);
 
 void print_env(void);
 
-/* string handlers */
+/* string manipulation handlers */
 int _strcmp(char *s1, char *s2);
 int _strlen(char *s);
 int _strncmp(char *s1, char *s2, int n);
@@ -58,4 +58,4 @@ struct flags
 	bool interactive;
 } flags;
 
-#endif /* SHELL_H */
+#endif

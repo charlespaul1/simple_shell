@@ -1,12 +1,11 @@
 #include "shell.h"
 
 /**
-* append_path - adds path to command
-* @path: path of command
-* @command: user entered command
+* append_path - adds a path to command
+* @path: path of the command
+* @command: command entered by user
 *
-* Return: buffer containing command with path on success
-* NULL on failure
+* Return: buffer containing command with path
 */
 char *append_path(char *path, char *command)
 {
