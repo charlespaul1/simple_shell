@@ -41,18 +41,25 @@ char *find_path(void);
 /* helper function for efficient free */
 void free_buffers(char **buf);
 
+/**
+ * builtin: for checking builtin funcs
+ */
 struct builtin
 {
 	char *env;
 	char *exit;
 } builtin;
-
+/**
+ * info - gives information on exit
+ */
 struct info
 {
 	int final_exit;
 	int ln_count;
 } info;
-
+/**
+ * flags - handles flags
+ */
 struct flags
 {
 	bool interactive;
