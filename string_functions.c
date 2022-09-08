@@ -5,7 +5,7 @@
 * @s1: compared to s2;
 * @s2: compared to s1;
 *
-* Return: returns difference between strings
+* Return: returns difference between strings.
 */
 int _strcmp(char *s1, char *s2)
 {
