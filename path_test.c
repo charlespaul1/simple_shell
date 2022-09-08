@@ -3,7 +3,7 @@
 /**
 * test_path - checks whether the path is valid
 * @path: tokenized path
-* @command: user entered command
+* @command: user entered command.
 *
 * Return: path appended with command on success
 * NULL on failure
