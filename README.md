@@ -25,7 +25,7 @@ This project was written entirely using the C Language.
 * If an executable for the command entered cannot be found,  the shell prints an error message and display the prompt again.
 * Handle errors.
 * Handling the (Ctrl+D) which is the end of file condition
-* Handling the command line with arguments
+* Handling the command line with arguments.
 * Handles the PATH
 * Support the exit feature and the exit status
 * Handle the Ctrl-C to not terminate the shell
