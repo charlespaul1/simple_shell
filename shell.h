@@ -42,7 +42,9 @@ char *find_path(void);
 void free_buffers(char **buf);
 
 /**
- * builtin: for checking builtin funcs
+ * struct builtin - for checking builtin funcs
+ * @env: environment
+ * @exit: exit parameter
  */
 struct builtin
 {
@@ -50,7 +52,9 @@ struct builtin
 	char *exit;
 } builtin;
 /**
- * info - gives information on exit
+ * struct info - gives information on exit
+ * @final_exit: int showing final exit status
+ * @ln_count: intial count
  */
 struct info
 {
@@ -58,7 +62,8 @@ struct info
 	int ln_count;
 } info;
 /**
- * flags - handles flags
+ * struct flags - handles flags
+ * @interactive: shows 0 or 1 whether
  */
 struct flags
 {

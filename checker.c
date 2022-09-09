@@ -1,7 +1,6 @@
 #include "shell.h"
 /**
- *checker- checks to see whether command entered is 
- a built in function.
+ *checker- checks to see whether command entered is a built in function.
  *@cmd: tokenized user input
  *@buf: line derived from our getline function
  *Return: 1 if cmd excuted 0 if cmd is not executed
