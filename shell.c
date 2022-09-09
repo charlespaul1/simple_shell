@@ -3,7 +3,7 @@
 * main - carries out the read, execute then print output using a loop
 * @ac: argument count
 * @av: argument vector
-* @envp: environment vector
+* @envp: environment vector.
 *
 * Return: 0
 */
